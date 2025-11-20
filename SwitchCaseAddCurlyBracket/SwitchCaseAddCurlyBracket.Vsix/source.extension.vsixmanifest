@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="SwitchCaseAddCurlyBracket.6d21962d-0b24-4936-af71-b0c92756bf55" Version="1.0" Language="ja-JP" Publisher="kttFox"/>
+        <DisplayName>SwitchCaseAddCurlyBracket</DisplayName>
+        <Description xml:space="preserve">SwitchのCase節内の処理に{}を追加します。</Description>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,)" Id="Microsoft.VisualStudio.Community">
+            <ProductArchitecture>arm64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="SwitchCaseAddCurlyBracket" Path="|SwitchCaseAddCurlyBracket|"/>
+        <Asset Type="Microsoft.VisualStudio.Analyzer" d:Source="Project" d:ProjectName="SwitchCaseAddCurlyBracket" Path="|SwitchCaseAddCurlyBracket|"/>
+        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="SwitchCaseAddCurlyBracket.CodeFixes" Path="|SwitchCaseAddCurlyBracket.CodeFixes|"/>
+        <Asset Type="Microsoft.VisualStudio.Analyzer" d:Source="Project" d:ProjectName="SwitchCaseAddCurlyBracket.CodeFixes" Path="|SwitchCaseAddCurlyBracket.CodeFixes|"/>
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.Roslyn.LanguageServices" Version="[17.0,)" DisplayName="Roslyn Language Services" />
+    </Prerequisites>
+</PackageManifest>

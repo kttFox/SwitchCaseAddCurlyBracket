@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="arm64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="SwitchCaseAddCurlyBracket/SwitchCaseAddCurlyBracket.CodeFixes/SwitchCaseAddCurlyBracket.CodeFixes.csproj" Id="d73a7d28-916b-4d88-bfdc-bb7809f839f4" />
+  <Project Path="SwitchCaseAddCurlyBracket/SwitchCaseAddCurlyBracket.Package/SwitchCaseAddCurlyBracket.Package.csproj" Id="eecd66c5-52cd-497d-960c-72dd8c2f56e7" />
+  <Project Path="SwitchCaseAddCurlyBracket/SwitchCaseAddCurlyBracket.Test/SwitchCaseAddCurlyBracket.Test.csproj" Id="fe2324a8-70bc-4eb9-a25b-116ebcb9798f" />
+  <Project Path="SwitchCaseAddCurlyBracket/SwitchCaseAddCurlyBracket.Vsix/SwitchCaseAddCurlyBracket.Vsix.csproj" Id="c7a33371-b30b-49fd-b24f-42db73ab6ac7" />
+  <Project Path="SwitchCaseAddCurlyBracket/SwitchCaseAddCurlyBracket/SwitchCaseAddCurlyBracket.csproj" Id="2fd85fa2-f769-4371-9402-8f827622964f" />
+</Solution>
