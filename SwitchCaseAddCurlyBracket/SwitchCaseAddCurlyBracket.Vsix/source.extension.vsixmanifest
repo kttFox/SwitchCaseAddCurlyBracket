@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="SwitchCaseAddCurlyBracket.6d21962d-0b24-4936-af71-b0c92756bf55" Version="1.0" Language="ja-JP" Publisher="kttFox"/>
+        <Identity Id="SwitchCaseAddCurlyBracket.6d21962d-0b24-4936-af71-b0c92756bf55" Version="1.0.1" Language="en-US" Publisher="kttFox"/>
         <DisplayName>SwitchCaseAddCurlyBracket</DisplayName>
-        <Description xml:space="preserve">SwitchのCase節内の処理に{}を追加します。</Description>
+        <Description xml:space="preserve">Switch文のCaseに中括弧{}を追加します。</Description>
+        <MoreInfo>https://github.com/kttFox/SwitchCaseAddCurlyBracket</MoreInfo>
+        <License>LICENSE.txt</License>
+        <Tags>analyzers, switch</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">

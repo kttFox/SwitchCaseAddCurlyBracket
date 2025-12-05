@@ -4,6 +4,12 @@ Analyzer library
 
 Switch文のCaseに中括弧{}を追加します。
 
+Visual Studio拡張機能  
+https://marketplace.visualstudio.com/items?itemName=kttFox.SwitchCaseAddCurlyBracket
+
+Nugetパッケージ  
+https://www.nuget.org/packages/SwitchCaseAddCurlyBracket
+
 </br>
   
 # Original Source

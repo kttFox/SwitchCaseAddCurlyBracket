@@ -5,25 +5,23 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<VersionPrefix>1.0</VersionPrefix>
   </PropertyGroup>
 
   <PropertyGroup>
     <PackageId>SwitchCaseAddCurlyBracket</PackageId>
-    <PackageVersion>1.0.0.0</PackageVersion>
     <Authors>kttFox</Authors>
-    <PackageLicenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</PackageLicenseUrl>
-    <PackageProjectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</PackageProjectUrl>
-    <PackageIconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</PackageIconUrl>
-    <RepositoryUrl>http://REPOSITORY_URL_HERE_OR_DELETE_THIS_LINE</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/kttFox/SwitchCaseAddCurlyBracket</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/kttFox/SwitchCaseAddCurlyBracket</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Description>SwitchCaseAddCurlyBracket</Description>
-    <PackageReleaseNotes>Summary of changes made in this release of the package.</PackageReleaseNotes>
-    <Copyright>Copyright</Copyright>
-    <PackageTags>SwitchCaseAddCurlyBracket, analyzers</PackageTags>
+    <Description>Switch文のCaseに中括弧{}を追加します。</Description>
+    <Copyright>© kttFox</Copyright>
+    <PackageTags>analyzers, switch</PackageTags>
     <DevelopmentDependency>true</DevelopmentDependency>
-    <NoPackageAnalysis>true</NoPackageAnalysis>
 
     <TargetsForTfmSpecificContentInPackage>$(TargetsForTfmSpecificContentInPackage);_AddAnalyzersToOutput</TargetsForTfmSpecificContentInPackage>
+
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
